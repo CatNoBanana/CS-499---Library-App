@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/p_light_pink"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!--search bar and sort button row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:background="@color/p_purple">
+
+        <!--search field-->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/p_light_pink"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search..."
+            app:searchIcon="@android:drawable/ic_menu_search" />
+
+        <!--sort button-->
+        <ImageButton
+            android:id="@+id/btn_sort"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            android:contentDescription="Sort"
+            app:tint="@color/p_white" />
+
+    </LinearLayout>
+
+    <!--current sort label-->
+    <TextView
+        android:id="@+id/sort_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/p_teal"
+        android:textSize="12sp"
+        android:text="Sorted by: Title A→Z"/>
+
+    <!--item list-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <!--shown when the list is empty-->
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="32dp"
+        android:text="No items yet.\nTap + to add one."
+        android:textAlignment="center"
+        android:textColor="@color/p_teal"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</LinearLayout>

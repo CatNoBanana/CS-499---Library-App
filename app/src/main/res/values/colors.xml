@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#3D0000</color>
+
+    <!-- pastel colors -->
+    <color name="p_yellow">#F0DAB1</color>
+    <color name="p_light_pink">#E39AAC</color>
+    <color name="p_darker_light_pink">#CD8D9C</color>
+    <color name="p_darkest_light_pink">#B97E8D</color>
+    <color name="p_pink">#C45D9F</color>
+    <color name="p_purple">#634B7D</color>
+    <color name="p_blue">#6461C2</color>
+    <color name="p_teal">#2BA9B4</color>
+    <color name="p_light_green">#93D4B5</color>
+    <color name="p_white">#F0F6E8</color>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Judson\'s Inventory App</string>
+    <string name="details">Details</string>
+
+    <!--login screen text-->
+    <string name="login_greeting">Welcome to Your Media Library!</string>
+    <string name="login_please">Please Login Below or Create a new Account</string>
+    <string name="login_username">Username:\ </string>
+    <string name="login_password">Password:\ </string>
+</resources>

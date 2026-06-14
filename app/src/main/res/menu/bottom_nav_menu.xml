@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--bottom navigation bar for library, books, movies, games, and profile tab access-->
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/outline_local_library_24"
+        android:title="Library" />
+
+    <item
+        android:id="@+id/nav_books"
+        android:icon="@drawable/outline_book_2_24"
+        android:title="Books" />
+
+    <item
+        android:id="@+id/nav_movies"
+        android:icon="@drawable/outline_movie_filter_24"
+        android:title="Movies" />
+
+    <item
+        android:id="@+id/nav_games"
+        android:icon="@drawable/outline_videogame_asset_24"
+        android:title="Games" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/outline_person_outline_24"
+        android:title="Profile" />
+
+</menu>
