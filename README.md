@@ -28,6 +28,12 @@ A comprehensive code review of the original CS 360 inventory app was the first s
 
 
 
+## **Category One Enhancement**: Software Design and Engineering
+### Artifact Description
+
+The artifact for this, and all other categories, 
+
+
 
 
 
