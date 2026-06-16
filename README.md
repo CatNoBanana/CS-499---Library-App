@@ -20,7 +20,7 @@ For this capstone, the original artifact was enhanced to improve usability, main
 
 
 
-## Code Review
+# Code Review
 
 A comprehensive code review of the original CS 360 inventory app was the first step. It was conducted before beginning the enhancement process. The code review examined the existing architecture, database implementation, user interface design, and functionality to identify weaknesses, security vulnerabilities, and areas of improvement that were applicable for the three enhancement categories - software design and engineering, algorithms and data structures, and databases. It outlined the planned enhancements and connected them to the CS 499 course outcomes.
 ### Code Review Video
@@ -28,7 +28,7 @@ A comprehensive code review of the original CS 360 inventory app was the first s
 
 
 
-## **Category One Enhancement**: Software Design and Engineering
+# **Category One Enhancement**: Software Design and Engineering
 ### Artifact Description
 
 The artifact for this category, and all other categories, is the Android media library application. This originates from the final project from CS 360: Mobile Architecture and Programming. In its original form, the app displayed inventory items in a single screen GridLayout, and it listed the items in the order that they were added. It displayed the name of the item, quantity, and allowed the user to delete the item from the list. The app was functional but contained several limitations related to user experience, navigation, maintainability, scalability, and overall organization.
@@ -52,7 +52,7 @@ This enhancement demonstrates the fourth course outcome: the ability to use well
  
  
  
-## **Category Two Enhancement**: Algorithms and Data Structures
+# **Category Two Enhancement**: Algorithms and Data Structures
 ### Artifact Description
 
 The original artifact relied on simple data retrieval and refreshed the entire GridLayout if there was any change in data. The app had no algorithmic design, as items were just loaded from the database in insertion order with no sorting, searching, or in-memory organization of any kind.
@@ -75,10 +75,27 @@ This enhancement directly addresses the third course outcome: designing and eval
 
 
 
-## **Category Three Enhancement**: Databases
+# **Category Three Enhancement**: Databases
 ### Artifact Description
 
-The original artifact utilized an SQLite database to store user accounts and item information. It was a two-table SQLite schema with a simple users table to house 
+The original artifact utilized an SQLite database to store user accounts and item information. It was a simple two-table SQLite schema; one with a simple users table to house usernames and passwords in plain-text, and another to hold the item names and quantities. Neither tables were designed for a media library, and the credential storage presented a significant security vulnerability.
+
+### Enhancements Completed
+* Expanded database functionality.
+* Improved database schema design.
+* Enhanced CRUD (Create, Read, Update, Delete) operations.
+* Improved user-specific data retrieval.
+* Added validation to improve data integrity.
+* Corrected database related issues that were discovered during testing.
+* Normalized the three-table schema for users, categories, and media items. 
+
+
+### Course Outcomes Met
+This enhancement addresses the fourth course outcome: demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+It also addresses the fifth course outcome: developing a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+
+### Narrative
+[Read the full Category Three Narrative](https://github.com/CatNoBanana/CS-499---Library-App/blob/main/Category%20Three%20Narrative.pdf)
 
 
 
