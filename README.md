@@ -48,12 +48,37 @@ The artifact for this category, and all other categories, is the Android media l
 This enhancement demonstrates the fourth course outcome: the ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
 ### Narrative
+[Read the full Category One Narrative](https://github.com/CatNoBanana/CS-499---Library-App/blob/main/Category%20One%20Narrative.pdf)
+ 
+ 
+ 
+## **Category Two Enhancement**: Algorithms and Data Structures
+### Artifact Description
+
+The original artifact relied on simple data retrieval and refreshed the entire GridLayout if there was any change in data. The app had no algorithmic design, as items were just loaded from the database in insertion order with no sorting, searching, or in-memory organization of any kind.
+
+### Enhancements Completed
+* Improved data retrieval and organization processes.
+* Enhanced collection management functionality.
+* Optimized list loading and display operations.
+* Improved handling of category-based filtering.
+* Refined data processing logic to increase efficiency and maintainability.
+* HashMap-based category indexing.
+* Merge Sort to display media items based on title (A->Z or Z->A), year (newest or oldest first), or rating (highest or lowest first).
+* Binary search used to search for media items in alphabetical order.
+
+### Course Outcomes Met
+This enhancement directly addresses the third course outcome: designing and evaluating computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
+
+### Narrative
+[Read the full Category Two Narrative](https://github.com/CatNoBanana/CS-499---Library-App/blob/main/Category%20Two%20Narrative.pdf)
 
 
 
+## **Category Three Enhancement**: Databases
+### Artifact Description
 
-
-
+The original artifact utilized an SQLite database to store user accounts and item information. It was a two-table SQLite schema with a simple users table to house 
 
 
 
