@@ -31,7 +31,32 @@ A comprehensive code review of the original CS 360 inventory app was the first s
 ## **Category One Enhancement**: Software Design and Engineering
 ### Artifact Description
 
-The artifact for this, and all other categories, 
+The artifact for this category, and all other categories, is the Android media library application. This originates from the final project from CS 360: Mobile Architecture and Programming. In its original form, the app displayed inventory items in a single screen GridLayout, and it listed the items in the order that they were added. It displayed the name of the item, quantity, and allowed the user to delete the item from the list. The app was functional but contained several limitations related to user experience, navigation, maintainability, scalability, and overall organization.
+
+### Enhancements Completed
+* Redesigned portions of the user interface for improved usability.
+* Improved navigation between application screens and fragments using a BottomNavigationView.
+* Updated the entire visual design and refactored code to improve readability and maintainability.
+* Added a consistent, lighter pastel color  theme throughout.
+* Added input validation to prevent invalid user entries.
+* Enhanced error handling and application stability.
+* Improved commenting and documentation throughout the code base.
+* Replaced the GridLayout with a RecyclerView, backed by a custom MediaItemAdapter using the ViewHolder pattern.
+* Expanded app from a single generic inventory into a three category media library that supports books, movies, and games.
+
+### Course Outcomes Met
+This enhancement demonstrates the fourth course outcome: the ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+
+### Narrative
+
+
+
+
+
+
+
+
+
 
 
 
