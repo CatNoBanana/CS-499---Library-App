@@ -3,6 +3,12 @@
 ## Navigation
 
 - [Project Overview](https://github.com/CatNoBanana/CS-499---Library-App#capstone-project-overview)
+- [Code Review](https://github.com/CatNoBanana/CS-499---Library-App#code-review)
+- [Software Design & Engineering](https://github.com/CatNoBanana/CS-499---Library-App#category-one-enhancement-software-design-and-engineering)
+- [Algorithms & Data Structures](https://github.com/CatNoBanana/CS-499---Library-App#category-two-enhancement-algorithms-and-data-structures)
+- [Databases](https://github.com/CatNoBanana/CS-499---Library-App#category-three-enhancement-databases)
+- [Technologies Used](https://github.com/CatNoBanana/CS-499---Library-App#technologies-used)
+
 
 
 ## CS 499 Computer Science Capstone
