@@ -2,7 +2,7 @@
 
 ## Navigation
 
-- [Project Overview](https://github.com/CatNoBanana/CS-499---Library-App/edit/main/README.md#professional-self-assessment)
+- [Project Overview](https://github.com/CatNoBanana/CS-499---Library-App#capstone-project-overview)
 
 
 ## CS 499 Computer Science Capstone
