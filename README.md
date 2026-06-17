@@ -87,7 +87,10 @@ The original artifact utilized an SQLite database to store user accounts and ite
 * Improved user-specific data retrieval.
 * Added validation to improve data integrity.
 * Corrected database related issues that were discovered during testing.
-* Normalized the three-table schema for users, categories, and media items. 
+* Normalized the three-table schema for users, categories, and media items.
+* Added SHA-256 password hashing with salt to replace plain-text passwords.
+* Parameterized queries to prevent SQL injections by ensuring user input is always treated as data.
+* Added category filtering and search queries to support tabs and search bar functions. 
 
 
 ### Course Outcomes Met
