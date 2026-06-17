@@ -1,5 +1,9 @@
 # Judson's ePortfolio
 
+## Navigation
+
+- [Project Overview](https://github.com/CatNoBanana/CS-499---Library-App/edit/main/README.md#professional-self-assessment)
+
 
 ## CS 499 Computer Science Capstone
 
@@ -65,7 +69,7 @@ The original artifact relied on simple data retrieval and refreshed the entire G
 * Refined data processing logic to increase efficiency and maintainability.
 * HashMap-based category indexing.
 * Merge Sort to display media items based on title (A->Z or Z->A), year (newest or oldest first), or rating (highest or lowest first).
-* Binary search used to search for media items in alphabetical order.
+* Binary search used to search for media items' titles in alphabetical order.
 
 ### Course Outcomes Met
 This enhancement directly addresses the third course outcome: designing and evaluating computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
@@ -102,7 +106,20 @@ It also addresses the fifth course outcome: developing a security mindset that a
 
 
 
+# Technologies Used
 
+- Java
+- Android Studio
+- SQLite
+- Material Design Components
+- RecyclerView
+- Git
+- SHA-256 Password Hashing
+
+
+# Conclusion
+
+This capstone project demonstrates my growth throughout the Computer Science program by showcasing my ability to analyze an existing software application, identify opportunities for improvement, implement meaningful enhancements, and document the development process. Through improvements in software design and engineering, algorithms and data structures, and database management, I transformed a basic inventory application into a secure and scalable multimedia library system.
 
 
 
