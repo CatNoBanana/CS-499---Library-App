@@ -35,6 +35,7 @@ For this capstone, the original artifact was enhanced to improve usability, main
 A comprehensive code review of the original CS 360 inventory app was the first step. It was conducted before beginning the enhancement process. The code review examined the existing architecture, database implementation, user interface design, and functionality to identify weaknesses, security vulnerabilities, and areas of improvement that were applicable for the three enhancement categories - software design and engineering, algorithms and data structures, and databases. It outlined the planned enhancements and connected them to the CS 499 course outcomes.
 ### Code Review Video
 **YouTube Link** for the **[Code Review](https://www.youtube.com/watch?v=INHdbpCs2wI)**
+
 **[Class Files for Library Application](https://github.com/CatNoBanana/CS-499---Library-App/tree/main/app/src/main/java/com/zybooks/judsonsinventory)**
 [](url)
 
