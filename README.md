@@ -36,8 +36,12 @@ A comprehensive code review of the original CS 360 inventory app was the first s
 ### Code Review Video
 **YouTube Link** for the **[Code Review](https://www.youtube.com/watch?v=INHdbpCs2wI)**
 
-**[Class Files for Library Application](https://github.com/CatNoBanana/CS-499---Library-App/tree/main/app/src/main/java/com/zybooks/judsonsinventory)**
-[](url)
+**[Class Files](https://github.com/CatNoBanana/CS-499---Library-App/tree/main/app/src/main/java/com/zybooks/judsonsinventory)**
+[](url) for entire Library Application
+
+XML files for [Layout Design](https://github.com/CatNoBanana/CS-499---Library-App/tree/main/app/src/main/res/layout)
+
+
 
 
 
